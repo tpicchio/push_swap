@@ -54,7 +54,7 @@ static void	ft_within_int(char **token)
 			ft_error(5, token, NULL);
 		ft_atoi(token[i], &error);
 		if (error == 1)
-			ft_error(1, NULL, NULL);
+			ft_error(1, token, NULL);
 		i++;
 	}
 }
